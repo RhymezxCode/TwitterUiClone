@@ -11,7 +11,7 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/space_tab"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="225dp"
         android:layout_margin="20dp"
         app:cardBackgroundColor="#005477"
         app:cardCornerRadius="10dp">
@@ -20,32 +20,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animated_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/white"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/speakwave" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_more_vert_24" />
+
+
             <TextView
                 android:id="@+id/live"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1_bold"
                 android:text="@string/live"
                 android:textColor="#ffffff"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/animated_icon"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/space_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1_bold"
                 android:textColor="#ffffff"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/live"
-                tools:text="Name of Space" />
+                tools:text="The topic of the space should be here." />
 
             <TextView
                 android:id="@+id/no_of_listeners"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1"
                 android:textColor="#ffffff"
+                android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/space_name"
                 tools:text="Number of Listeners" />
@@ -55,7 +83,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1_bold"
                 android:textColor="#ffffff"
+                android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/no_of_listeners"
                 tools:text="Space Host" />
@@ -65,7 +95,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1"
                 android:textColor="#ffffff"
+                android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/space_host_name"
                 tools:text="Space Host Bio" />
