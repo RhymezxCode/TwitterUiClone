@@ -13,32 +13,32 @@
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.project.twitteruiclone.calculate.CalculateFragment"
-        android:label="Calculate"
-        tools:layout="@layout/fragment_calculate" />
+        android:name="com.project.twitteruiclone.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/navigation_space"
-        android:name="com.project.twitteruiclone.wallet.WalletFragment"
-        android:label="Wallet"
-        tools:layout="@layout/fragment_wallet" />
+        android:name="com.project.twitteruiclone.SpaceFragment"
+        android:label="Space"
+        tools:layout="@layout/fragment_space" />
 
     <fragment
         android:id="@+id/navigation_communities"
-        android:name="com.project.twitteruiclone.user.UserFragment"
-        android:label="User"
-        tools:layout="@layout/fragment_user" />
+        android:name="com.project.twitteruiclone.CommunitiesFragment"
+        android:label="Communities"
+        tools:layout="@layout/fragment_communities" />
 
     <fragment
         android:id="@+id/navigation_notification"
-        android:name="com.project.twitteruiclone.user.UserFragment"
-        android:label="User"
-        tools:layout="@layout/fragment_user" />
+        android:name="com.project.twitteruiclone.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
 
     <fragment
         android:id="@+id/navigation_message"
-        android:name="com.project.twitteruiclone.user.UserFragment"
-        android:label="User"
-        tools:layout="@layout/fragment_user" />
+        android:name="com.project.twitteruiclone.MessageFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
 
 </navigation>
