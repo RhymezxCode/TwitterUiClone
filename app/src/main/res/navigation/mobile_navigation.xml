@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.project.twitteruiclone.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.project.twitteruiclone.calculate.CalculateFragment"
+        android:label="Calculate"
+        tools:layout="@layout/fragment_calculate" />
+
+    <fragment
+        android:id="@+id/navigation_space"
+        android:name="com.project.twitteruiclone.wallet.WalletFragment"
+        android:label="Wallet"
+        tools:layout="@layout/fragment_wallet" />
+
+    <fragment
+        android:id="@+id/navigation_communities"
+        android:name="com.project.twitteruiclone.user.UserFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.project.twitteruiclone.user.UserFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.project.twitteruiclone.user.UserFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+
+</navigation>
