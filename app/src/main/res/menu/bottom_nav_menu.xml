@@ -16,10 +16,10 @@
         android:icon="@drawable/space"
         android:title="Space" />
 
-    <item
-        android:id="@+id/navigation_communities"
-        android:icon="@drawable/communities"
-        android:title="Communities" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_communities"-->
+<!--        android:icon="@drawable/communities"-->
+<!--        android:title="Communities" />-->
 
     <item
         android:id="@+id/navigation_notification"

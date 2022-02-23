@@ -7,38 +7,33 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.project.twitteruiclone.HomeFragment"
-        android:label="Home"
+        android:name="com.project.twitteruiclone.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.project.twitteruiclone.SearchFragment"
-        android:label="Search"
+        android:name="com.project.twitteruiclone.ui.search.SearchFragment"
         tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/navigation_space"
-        android:name="com.project.twitteruiclone.SpaceFragment"
-        android:label="Space"
+        android:name="com.project.twitteruiclone.ui.space.SpaceFragment"
         tools:layout="@layout/fragment_space" />
 
-    <fragment
-        android:id="@+id/navigation_communities"
-        android:name="com.project.twitteruiclone.CommunitiesFragment"
-        android:label="Communities"
-        tools:layout="@layout/fragment_communities" />
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_communities"-->
+<!--        android:name="com.project.twitteruiclone.ui.communities.CommunitiesFragment"-->
+<!--        android:label="Communities"-->
+<!--        tools:layout="@layout/fragment_communities" />-->
 
     <fragment
         android:id="@+id/navigation_notification"
-        android:name="com.project.twitteruiclone.NotificationFragment"
-        android:label="Notification"
+        android:name="com.project.twitteruiclone.ui.notification.NotificationFragment"
         tools:layout="@layout/fragment_notification" />
 
     <fragment
         android:id="@+id/navigation_message"
-        android:name="com.project.twitteruiclone.MessageFragment"
-        android:label="Message"
+        android:name="com.project.twitteruiclone.ui.message.MessageFragment"
         tools:layout="@layout/fragment_message" />
 
 </navigation>
