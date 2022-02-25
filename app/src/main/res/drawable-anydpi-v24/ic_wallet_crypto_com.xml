@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="43.0dip" android:viewportWidth="43.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h43v48h-43z" />
+        <path android:fillColor="@drawable/$ic_wallet_crypto_com__0" android:pathData="M21.5273,0.0023L0,12.0144V36.0385L21.5273,48.0505L43.0545,36.0385V12.0144L21.5273,0.0023Z" />
+        <path android:fillColor="@drawable/$ic_wallet_crypto_com__1" android:pathData="M21.5273,0.0023L0,12.0144V36.0385L21.5273,48.0505V0.0023Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M29.9205,10.3812H13.0257L11.0637,18.7054H31.9915L29.9205,10.3812ZM16.0232,30.1379V24.606L11.0092,21.5503L5.3413,25.607L13.0802,38.6201H16.1867L19.8381,35.301V33.6677L16.0232,30.1379Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M26.977,19.9698H16.0771L17.8756,24.606L17.3306,29.8218H25.7236L25.1786,24.606L26.977,19.9698Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M31.9909,21.4976L27.0314,24.6059V30.1378L23.271,33.6677V35.3009L26.9224,38.5673H29.9744L37.6588,25.6069L31.9909,21.4976Z" />
+    </group>
+</vector>

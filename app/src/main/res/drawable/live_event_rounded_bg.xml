@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/twitter_blue" />
+            <corners android:radius="@dimen/image_corner_radius" />
+        </shape>
+    </item>
+    <item android:id="@id/live_event_parent_background">
+        <shape />
+    </item>
+</layer-list>

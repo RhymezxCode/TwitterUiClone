@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/selected" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/ps__ic_hydra_waiting_no_dots_filled" />
+    <item android:duration="300" android:drawable="@drawable/ps__ic_hydra_waiting_one_dot_filled" />
+    <item android:duration="300" android:drawable="@drawable/ps__ic_hydra_waiting_two_dots_filled" />
+    <item android:duration="300" android:drawable="@drawable/ps__ic_hydra_waiting_all_dots_filled" />
+</animation-list>

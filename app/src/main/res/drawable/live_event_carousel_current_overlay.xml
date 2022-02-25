@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <corners android:radius="@dimen/space_2" />
+    <stroke android:width="@dimen/live_event_carousel_item_selected_border_width" android:color="@color/twitter_blue" />
+</shape>

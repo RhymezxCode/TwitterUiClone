@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/badge_number_background_stroke_size" android:color="?coreColorToolbarBg" />
+            <corners android:radius="14.0dip" />
+            <solid android:color="@color/twitter_blue" />
+            <padding android:left="6.0dip" android:top="0.0dip" android:right="6.0dip" android:bottom="0.0dip" />
+        </shape>
+    </item>
+</selector>

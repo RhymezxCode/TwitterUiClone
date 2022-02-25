@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/border_thickness" android:color="?coreColorBorder" />
+            <solid android:color="?coreColorAppBackground" />
+            <padding android:left="@dimen/border_thickness" android:top="@dimen/border_thickness" android:right="@dimen/border_thickness" android:bottom="@dimen/border_thickness" />
+            <corners android:radius="@dimen/card_corner_radius" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?coreColorBorder" />
+        </shape>
+    </item>
+    <item android:top="@dimen/border_thickness" android:bottom="@dimen/border_thickness">
+        <shape android:shape="rectangle">
+            <solid android:color="?coreColorSectionDivider" />
+        </shape>
+    </item>
+</layer-list>

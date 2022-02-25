@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom">
+        <shape android:shape="oval">
+            <size android:height="16.0dip" android:width="16.0dip" />
+            <solid android:color="@color/twitter_blue" />
+            <stroke android:width="1.5dip" android:color="@color/app_background" />
+        </shape>
+    </item>
+</layer-list>

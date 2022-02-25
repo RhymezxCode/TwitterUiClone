@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/btn_action_checked_bg" twitter:state_toggled_on="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/btn_action_pressed_bg" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_action_pressed_bg" />
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?coreColorAppBackground" />
+            <stroke android:width="@dimen/border_width_small" android:color="@color/twitter_blue" />
+        </shape>
+    </item>
+</selector>

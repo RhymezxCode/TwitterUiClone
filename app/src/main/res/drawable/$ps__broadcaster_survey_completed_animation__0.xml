@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="80.0dip" android:width="80.0dip" android:viewportWidth="86.0" android:viewportHeight="86.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="circle" android:pathData="M 43 3 C 32.395 3 22.214 7.217 14.716 14.716 C 7.217 22.214 3 32.395 3 43 C 3 53.605 7.217 63.786 14.716 71.284 C 22.214 78.783 32.395 83 43 83 C 53.605 83 63.786 78.783 71.284 71.284 C 78.783 63.786 83 53.605 83 43 C 83 32.395 78.783 22.214 71.284 14.716 C 63.786 7.217 53.605 3 43 3 Z" android:strokeColor="#e6ffffff" android:strokeWidth="4.0" android:fillType="evenOdd" />
+    <group android:name="container" android:pivotX="50.0" android:pivotY="30.0" android:scaleX="0.5" android:scaleY="0.5">
+        <path android:name="checkmark" android:pathData="M 74.253 26.656 L 22.839 82.439 L 2.973 62.15" android:strokeColor="#e6ffffff" android:strokeWidth="6.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    </group>
+</vector>

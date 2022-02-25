@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/black_opacity_10" android:endColor="@color/clear" android:angle="0.0" android:type="radial" android:gradientRadius="70.00001%p" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/icn_viewers_badge" android:left="2.0dip" android:top="1.0dip" android:right="2.0dip" android:bottom="1.0dip" />
+</layer-list>

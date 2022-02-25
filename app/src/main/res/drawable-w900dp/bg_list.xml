@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/list_horizontal_padding" android:color="?coreColorListMarginBg" />
+            <padding android:left="@dimen/list_horizontal_padding" android:right="@dimen/list_horizontal_padding" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0px" android:color="?coreColorListMarginBg" />
+            <padding android:left="-1.0px" android:right="-1.0px" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/border_thickness" android:color="?coreColorBorder" />
+            <padding android:left="1.0px" android:right="1.0px" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?coreColorAppBackground" />
+        </shape>
+    </item>
+</layer-list>

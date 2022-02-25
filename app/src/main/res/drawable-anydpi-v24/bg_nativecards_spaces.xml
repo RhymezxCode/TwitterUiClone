@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dip" android:width="237.0dip" android:viewportWidth="237.0" android:viewportHeight="200.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_nativecards_spaces__0" android:pathData="M75,-122.368L157,-122.368A100,100 0,0 1,257 -22.368L257,272.369A100,100 0,0 1,157 372.369L75,372.369A100,100 0,0 1,-25 272.369L-25,-22.368A100,100 0,0 1,75 -122.368z" />
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/circle">
+        <shape android:shape="oval">
+            <size android:height="@dimen/medium_button_height" android:width="@dimen/medium_button_height" />
+            <solid android:color="@color/toolbar_transparent_button_background" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/icon" android:drawable="@drawable/ic_action_dock" />
+</layer-list>

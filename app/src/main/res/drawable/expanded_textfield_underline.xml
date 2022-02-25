@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:layout_width="fill_parent" android:layout_height="fill_parent" android:insetLeft="@dimen/search_field_inset_horizontal" android:insetRight="@dimen/expanded_search_field_inset_right" android:insetTop="@dimen/search_field_inset_vertical" android:insetBottom="@dimen/search_field_inset_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_focused="true">
+            <layer-list>
+                <item>
+                    <shape android:shape="rectangle">
+                        <solid android:color="?coreColorToolbarBg" />
+                    </shape>
+                </item>
+            </layer-list>
+        </item>
+        <item>
+            <layer-list>
+                <item>
+                    <shape android:shape="rectangle">
+                        <solid android:color="?coreColorTertiary" />
+                    </shape>
+                </item>
+                <item android:bottom="1.0dip">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?coreColorToolbarBg" />
+                    </shape>
+                </item>
+            </layer-list>
+        </item>
+    </selector>
+</inset>

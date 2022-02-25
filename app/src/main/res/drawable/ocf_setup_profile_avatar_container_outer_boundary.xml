@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?coreColorAppBackground" />
+    <padding android:left="@dimen/profile_module_avatar_container_padding_between_boundaries" android:top="@dimen/profile_module_avatar_container_padding_between_boundaries" android:right="@dimen/profile_module_avatar_container_padding_between_boundaries" android:bottom="@dimen/profile_module_avatar_container_padding_between_boundaries" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:id="@id/circle" android:drawable="@drawable/bg_action_item_circle" />
+    <item android:gravity="center" android:id="@id/icon" android:drawable="@drawable/ic_vector_share_android" />
+</layer-list>

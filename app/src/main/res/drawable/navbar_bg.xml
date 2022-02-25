@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="?coreColorBorder" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/border_thickness">
+        <shape>
+            <solid android:color="?coreColorToolbarBg" />
+        </shape>
+    </item>
+</layer-list>

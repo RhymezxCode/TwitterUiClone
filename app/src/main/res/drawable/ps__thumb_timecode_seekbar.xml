@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/ps__standard_spacing_5" android:bottom="@dimen/ps__standard_spacing_5">
+        <shape android:shape="oval">
+            <solid android:color="@color/ps__white" />
+            <size android:height="@dimen/ps__timecode_seekbar_thumb_size" android:width="@dimen/ps__timecode_seekbar_thumb_size" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:drawable="@drawable/ic_vector_eye_off" android:left="0.0dip" android:right="@dimen/form_password_status_icon_spacing" />
+    <item android:gravity="center" android:drawable="@drawable/ic_vector_error_circle_red_tint" android:left="@dimen/form_password_eye_icon_spacing" android:right="@dimen/form_password_icon_spacing" />
+</layer-list>

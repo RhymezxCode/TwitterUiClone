@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/dm_fleets_gradient_color_dark" android:endColor="@color/dm_fleets_gradient_color_light" android:angle="0.0" android:type="linear" />
+    <corners android:topLeftRadius="24.0dip" android:topRightRadius="24.0dip" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="24.0dip" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_media_badge" />
+    <item android:left="@dimen/stickers_badge_side_padding" android:top="@dimen/stickers_badge_top_padding" android:right="@dimen/stickers_badge_side_padding" android:bottom="@dimen/stickers_badge_top_padding">
+        <bitmap android:src="@drawable/ic_stickers_badge" />
+    </item>
+</layer-list>

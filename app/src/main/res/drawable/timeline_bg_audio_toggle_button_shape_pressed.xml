@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/toolbar_transparent_button_background" />
+    <size android:height="@dimen/timeline_audio_toggle_button_size" android:width="@dimen/timeline_audio_toggle_button_size" />
+</shape>

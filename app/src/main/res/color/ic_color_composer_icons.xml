@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:color="@color/twitter_blue" />
+    <item android:state_selected="false" android:state_pressed="true" android:color="@color/twitter_blue_fill_pressed" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="@color/twitter_blue" />
+    <item android:state_pressed="true" android:color="@color/twitter_blue_fill_pressed" twitter:state_toggled_on="true" />
+    <item android:color="@color/twitter_blue" twitter:state_toggled_on="true" />
+    <item android:color="@color/twitter_blue" />
+</selector>

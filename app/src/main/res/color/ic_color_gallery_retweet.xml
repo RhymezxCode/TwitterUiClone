@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:color="@color/inline_action_gallery_disabled" />
+    <item android:color="@color/inline_action_gallery_disabled" twitter:state_deactivated="true" />
+    <item android:state_pressed="true" android:color="@color/inline_action_gallery_pressed" />
+    <item android:color="@color/inline_action_retweet" twitter:state_toggled_on="true" />
+    <item android:color="@color/inline_action_gallery" />
+</selector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1033" android:drawable="@drawable/ps__swipe_icon_1" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_2" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_3" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_4" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_5" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_6" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_7" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_8" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_9" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_10" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_11" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_12" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_13" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_14" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_15" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_16" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_17" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_18" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_19" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_20" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_21" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_22" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_23" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_24" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_25" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_26" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_27" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_28" />
+    <item android:duration="33" android:drawable="@drawable/ps__swipe_icon_29" />
+    <item android:duration="1033" android:drawable="@drawable/ps__swipe_icon_30" />
+</animation-list>

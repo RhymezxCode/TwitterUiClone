@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ocf_setup_profile_avatar_container_outer_boundary" />
+    <item android:drawable="@drawable/ocf_setup_profile_avatar_container_inner_boundary" />
+</layer-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <size android:height="@dimen/shutter_size_initial" android:width="@dimen/shutter_size_initial" />
+        </shape>
+    </item>
+    <item android:left="@dimen/shutter_hands_free_padding" android:top="@dimen/shutter_hands_free_padding" android:right="@dimen/shutter_hands_free_padding" android:bottom="@dimen/shutter_hands_free_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <solid android:color="@color/branded_red" />
+        </shape>
+    </item>
+</layer-list>

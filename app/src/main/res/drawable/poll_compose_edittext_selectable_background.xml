@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item twitter:state_error="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/poll_compose_large_button_horizontal_margin" android:color="@color/form_error" />
+            <corners android:radius="@dimen/poll_compose_card_option_corner_radius" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/poll_compose_large_button_horizontal_margin" android:color="@color/twitter_blue" />
+            <corners android:radius="@dimen/poll_compose_card_option_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/poll_compose_large_button_horizontal_margin" android:color="?coreColorBorder" />
+            <corners android:radius="@dimen/poll_compose_card_option_corner_radius" />
+        </shape>
+    </item>
+</selector>

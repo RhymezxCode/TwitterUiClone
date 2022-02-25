@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:layout_width="fill_parent" android:layout_height="fill_parent" android:insetLeft="@dimen/search_field_inset_horizontal" android:insetRight="@dimen/search_field_inset_horizontal" android:insetBottom="@dimen/search_field_inset_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_focused="true">
+            <layer-list>
+                <item android:top="@dimen/search_field_underline_top_margin_focused">
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/white" />
+                    </shape>
+                </item>
+            </layer-list>
+        </item>
+        <item>
+            <layer-list>
+                <item android:top="@dimen/search_field_underline_top_margin_default">
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/white_opacity_50" />
+                    </shape>
+                </item>
+            </layer-list>
+        </item>
+    </selector>
+</inset>

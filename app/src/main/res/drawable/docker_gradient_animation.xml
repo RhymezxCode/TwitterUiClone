@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_1" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_2" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_3" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_4" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_5" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_6" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_1" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_2" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_3" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_4" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_5" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_6" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_1" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_6" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_5" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_4" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_3" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_2" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_1" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_6" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_5" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_4" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_3" />
+    <item android:duration="830" android:drawable="@drawable/docker_gradient_2" />
+</animation-list>

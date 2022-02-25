@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/ic_vector_camera_flash_white" twitter:state_toggled_on="true" />
+    <item android:drawable="@drawable/ic_vector_camera_flash_off_white" />
+</selector>

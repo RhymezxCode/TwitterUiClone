@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="?coreColorPressedOverlay" />
+            <padding android:left="@dimen/border_thickness" android:top="@dimen/border_thickness" android:right="@dimen/border_thickness" android:bottom="@dimen/border_thickness" />
+            <corners android:radius="@dimen/card_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/border_thickness" android:color="?coreColorBorder" />
+            <solid android:color="@color/clear" />
+            <padding android:left="@dimen/border_thickness" android:top="@dimen/border_thickness" android:right="@dimen/border_thickness" android:bottom="@dimen/border_thickness" />
+            <corners android:radius="@dimen/card_corner_radius" />
+        </shape>
+    </item>
+</selector>

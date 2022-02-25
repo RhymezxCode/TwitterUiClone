@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/border_thickness" android:color="?coreColorBorder" />
+            <corners android:radius="@dimen/toolbar_smaller_height" />
+            <solid android:color="?coreColorPressed" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/border_thickness" android:color="?coreColorBorder" />
+            <corners android:radius="@dimen/toolbar_smaller_height" />
+            <solid android:color="?abstractColorFadedGray" />
+        </shape>
+    </item>
+</selector>

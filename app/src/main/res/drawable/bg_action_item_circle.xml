@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="?coreColorGlobalRippleSelector" />
+    </item>
+    <item android:id="@id/circle" android:left="@dimen/space_8" android:top="@dimen/space_8" android:right="@dimen/space_8" android:bottom="@dimen/space_8">
+        <shape android:shape="oval">
+            <size android:height="@dimen/medium_button_height" android:width="@dimen/medium_button_height" />
+            <solid android:color="@color/toolbar_transparent_button_background" />
+        </shape>
+    </item>
+</layer-list>

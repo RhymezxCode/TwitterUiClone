@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/color_picker_outer_circle">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="13.5dip" android:thickness="1.5dip">
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:id="@id/color_picker_inner_circle" android:left="3.0dip" android:top="3.0dip" android:right="3.0dip" android:bottom="3.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/twitter_blue" />
+        </shape>
+    </item>
+</layer-list>

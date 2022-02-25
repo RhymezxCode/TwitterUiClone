@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/fleetline_item_fh_gradient_ring_start" />
+    <item android:duration="1000" android:drawable="@drawable/fleetline_item_fh_gradient_ring_center" />
+    <item android:duration="1000" android:drawable="@drawable/fleetline_item_fh_gradient_ring_end" />
+</animation-list>

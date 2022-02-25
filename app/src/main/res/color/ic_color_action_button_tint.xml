@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twitter="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/white" twitter:state_toggled_on="true" />
+    <item android:state_checked="true" android:color="@color/white" />
+    <item android:state_pressed="true" android:color="@color/twitter_blue_fill_pressed" />
+    <item android:color="@color/twitter_blue" />
+</selector>

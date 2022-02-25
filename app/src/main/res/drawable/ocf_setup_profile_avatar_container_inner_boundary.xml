@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/profile_module_avatar_container_inner_dash_thickness" android:color="@color/twitter_blue" android:dashWidth="@dimen/profile_module_avatar_container_inner_dash_width" android:dashGap="@dimen/profile_module_avatar_container_inner_dash_gap" />
+    <corners android:radius="@dimen/profile_module_avatar_container_inner_corner_radius" />
+</shape>

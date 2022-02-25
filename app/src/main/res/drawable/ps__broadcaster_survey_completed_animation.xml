@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ps__broadcaster_survey_completed_animation__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="circle" android:animation="@drawable/$ps__broadcaster_survey_completed_animation__1" />
+    <target android:name="checkmark" android:animation="@drawable/$ps__broadcaster_survey_completed_animation__2" />
+</animated-vector>
