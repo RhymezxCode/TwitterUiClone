@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/faster_accelerate" android:duration="@integer/tooltip_transition_duration_ms" android:shareInterpolator="true" android:fillBefore="true" android:fillAfter="true" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:valueFrom="1" android:valueTo="0" android:propertyName="scaleX" />
+    <objectAnimator android:valueFrom="1" android:valueTo="0" android:propertyName="scaleY" />
+    <objectAnimator android:valueFrom="1" android:valueTo="0" android:propertyName="alpha" />
+</set>

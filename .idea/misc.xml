@@ -31,42 +31,179 @@
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/$ps__onboarding_viewer_hydra_modal__3.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/$ps__onboarding_viewer_hydra_modal__4.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/$ps__onboarding_viewer_hydra_modal__5.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/article_nudge_title_icon.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/avatar_marker_facebook.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/avatar_marker_google.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/avatar_marker_twitter.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/bg_nativecards_spaces.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/bg_nativecards_spaces__0.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/fleetline_item_out_of_network_bolt.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_action_bar.xml" value="0.22" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_admin_tools_help.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_admin_tools_rules.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_admin_tools_settings.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audience_selected_indicator.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audio_space_indicator.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audio_space_indicator__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audio_space_indicator_bg.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audio_space_scheduled.xml" value="0.2111111111111111" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_audio_space_scheduled__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_block_red.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_boxed_item_checkbox_selected.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_delete_shared_tweet.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_drag_thumb.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_draggable.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_ellipses.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_exclusive_tweet_fill.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_exclusive_tweet_fill__0.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_exclusive_tweet_fill__1.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_exclusive_tweet_fill__2.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_exclusive_tweet_fill__3.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_fire_tint_gradient.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_fire_tint_gradient__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_gallery.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_map_pin.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_micro_unmuted.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_micro_unmuted__0.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_micro_unmuted__1.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_narrowcast_everyone.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_report_red.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_adjust_settings.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_setting_invite_dm.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_setting_share_tweet_white.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_share.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_share__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_room_view_rules.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_scissors.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_space_checked.xml" value="0.2074074074074074" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_space_checked__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_stop_recording.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_survey_item_checked.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_tile_checkmark.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_toast_survey_complete.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_two_people.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_audio_spaces.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_audio_spaces__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_audio_spaces_monochrome.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_captions_on.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_heart_one_team.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_live.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_live_wave.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_people_bg.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_people_bg__0.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_protected_badge.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_vector_settings_stroke_link.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_crypto_com.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_crypto_com__0.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_crypto_com__1.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_imtoken.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_imtoken__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_opera.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_opera__0.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ic_wallet_opera__1.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/periscope_profile_ic_notification_off.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__avatar_superheart_border.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__avatar_superheart_fill.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__bg_hydra_label.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_calendar.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_check_shield.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_edit_broadcast_action_black.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_edit_broadcast_action_white.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hide_broadcast.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_added_phone.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_close.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_mic_small.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_mini_close.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_mini_hangup.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_removed_phone.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_tap_to_join_as_guest.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_waiting_all_dots_filled.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_waiting_no_dots_filled.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_waiting_one_dot_filled.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_hydra_waiting_two_dots_filled.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_moderator_action.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_notification_off.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_play_black.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_settings_gear.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_shield.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_shield_empty.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_shield_empty_white.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_stars_non_empty.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_stats_action.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_tap_to_report.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__ic_unhide_broadcast.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__moderation_group.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_broadcaster_hydra_modal.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal.xml" value="0.2074074074074074" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__0.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__1.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__2.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__3.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__4.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__onboarding_viewer_hydra_modal__5.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/ps__search_friends.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-anydpi-v24/room_entrypoint.xml" value="0.2074074074074074" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-mdpi/space.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-night/bg_module_header_no_border.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable-w900dp/bg_list.xml" value="0.16180555555555556" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/$avd_hide_password__0.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/$avd_show_password__0.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/$ps__broadcaster_survey_completed_animation__0.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_action_bar_item_background_material.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_btn_borderless_material.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_btn_check_material.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_dialog_material_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_edit_text_material.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_ic_ab_back_material.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/abc_ic_clear_material.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/app_bg_selector.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/audio_avatar_sent_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avatar_bg_gray.xml" value="0.1265625" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avatar_bg_live_large_bubble.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avatar_bg_space.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avatar_bg_space_medium_bubble.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avd_hide_password.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avd_show_password.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/avd_show_password__0.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/background_button_media_circle.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_audio_toggle_button_shape_pressed.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_black_to_clear_gradient.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_border_grey.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_btn_stroke_radius_12.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_btn_white.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_card_v2_button_stroke.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_circle_stroke.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_fleet_container_received.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_fleet_content.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_media_tag_user_info.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_module_header.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_periscope_badge_red_left_rounded.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_sticker_garbage_can_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/bg_tweet_placeholder_photo_error.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/blue_action_button.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/blue_circle_bg.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/border_gray_round_corner.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/border_top_grey_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/boxed_item_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/boxed_item_checkbox_selector.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/btn_follow_action.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/btn_media_tag_follow_action.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/btn_radio_off_to_on_mtrl_animation.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/btn_vector_follow_action.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/button_text_overlay_done.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/camera_flash_toggle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/card_border_with_bottom_rounded_corners.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/channel_details_overflow_icon_with_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/channel_details_share_icon_with_circle.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/circle_purple_gradient.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/communities.xml" value="0.11296296296296296" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/dm_send_bubble_right_nub_border.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/docker_gradient_2.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/dropdownlist_bg.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/fleets_large_progress_vector_drawable.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/home.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_boxed_item_checkbox_unselected.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_chevron_left.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_claps_medium.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_claps_medium_dark.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_communities_icon.xml" value="0.19427083333333334" />
@@ -74,43 +211,114 @@
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_compose_mode.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_emoji_4.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_faces_together.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_fist_light.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_fist_medium_dark.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_fist_medium_light.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_font_heavy.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_font_light.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_home_icon.xml" value="0.1361111111111111" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_home_icon_clicked.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_message_blue.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_micro_muted_docker.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_more_horiz.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_mute_sound.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_nft_nux_link.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_notification_icon.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_password_reveal_state_list.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_peace_sign_medium_dark.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_peace_sign_medium_light.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_raised_hand_medium.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_raised_hand_medium_dark.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_room_share_feedback.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_room_share_via_dm.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_sign_up_field_state_list.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_sign_up_reveal_valid_default.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_smile_rating_3.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_smile_rating_5.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_sound.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_space_icon.xml" value="0.2" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_space_icon_clicked.xml" value="0.1361111111111111" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_talking.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_text_background_on.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_text_overlay.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_toolbar_toolbox_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_twitter_circle_people.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_twitter_logo.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_action_retweet.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_bookmark_close_stroke.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_bookmark_plus_stroke.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_bot.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_camera_flash_off_white.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_captions_off.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_circle_fill.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_circle_light_gray.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_close_white_with_bg_circle.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_communities_stroke.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_crop_original.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_crop_square.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_error_circle_fill_white_tint.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_eye_on.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_follow_close_stroke.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_foursquare_nomargin.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_frown_circle.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_heart_white_stroke.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_notifications.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_vector_notifications_following.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_video_dock_with_bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ic_wallet_pillar.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/image_overlay.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/implicit_topic_tweet_prompt_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/intentful_search_item_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/intentful_search_item_rounded_corners.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/linear_layout_divider.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/live_event_social_context_presence_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/login_password_revealer.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/map_background_selector.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/material_cursor_drawable.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/material_ic_calendar_black_24dp.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/material_ic_menu_arrow_up_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/media_progress_bar.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/media_rail_icon_bg.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/media_rail_item_bordered_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/media_rail_item_rounded_foreground.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/message.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/mtrl_popupmenu_background.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/notification.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/notification_bg_low.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ocf_setup_profile_avatar_container.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ocf_setup_profile_avatar_container_inner_boundary.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/preemptive_nudge_banner_hide_reply.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/preemptive_nudge_banner_top_caret.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/profile_tweet_preview_prompt_card_corner_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/progress.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/progress_video.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/prompt_thumbs_icon_selector.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__bc_broadcast_info_more_circle.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__bg_blue_segment.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__bg_broadcast_tip.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__bg_broadcaster_survey_pill.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__bg_watchers_divider.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__broadcaster_survey_completed_animation.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__broadcaster_survey_completed_animation__0.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__hollow_btn_dark_grey_filled_downstate.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ps__thumb_timecode_seekbar.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/qr_reader_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/qr_user_card_ripple_selector_rectangle.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/reaction_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/recording_circle_waiting.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/ripple_selector_rounded_rectangle.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/room_topic_text_selector_for_topic_browsing.xml" value="0.1962962962962963" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/search.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/sensitive_media_badge.xml" value="0.1" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/space.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/stop_broadcast_ripple_clip.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/toolbar_overflow_with_bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/toolbar_up_with_bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/topic_pill_bg_selector.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/tweet_row_view_pivot_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/tweet_row_view_soft_intervention_pivot_background.xml" value="0.1" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/twitter_blue_rounded_rectangle_medium_button.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/drawable/vine_badge.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/font/chirp_font_family.xml" value="0.1962962962962963" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/layout/fragment_communities.xml" value="0.1" />
@@ -120,6 +328,11 @@
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/layout/fragment_search.xml" value="0.225" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/layout/fragment_space.xml" value="0.225" />
         <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/mipmap-anydpi-v26/ic_app_icon_2.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/mipmap-anydpi-v26/ic_app_icon_8.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_twitter.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/mipmap-anydpi-v26/ic_seasonal_beijing_olympics1.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/jidex/Documents/Business/Open-source/TwitterUiClone/app/src/main/res/mipmap-anydpi-v26/ic_seasonal_womans_day.xml" value="0.19722222222222222" />
       </map>
     </option>
   </component>

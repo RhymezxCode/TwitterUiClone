@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/heart_interpolator" android:duration="0" android:valueFrom="0" android:valueTo="0" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/heart_interpolator" android:duration="0" android:valueFrom="0" android:valueTo="0" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/heart_interpolator" android:duration="620" android:startOffset="180" android:valueFrom="0" android:valueTo="0.46" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/heart_interpolator" android:duration="620" android:startOffset="180" android:valueFrom="0" android:valueTo="0.46" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

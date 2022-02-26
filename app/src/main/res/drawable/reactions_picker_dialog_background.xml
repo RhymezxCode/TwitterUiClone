@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/reactions_picker_background" android:left="@dimen/space_16" android:top="@dimen/reaction_picker_arrow_height" android:right="@dimen/space_16" android:bottom="@dimen/reaction_picker_arrow_height" />
-</layer-list>

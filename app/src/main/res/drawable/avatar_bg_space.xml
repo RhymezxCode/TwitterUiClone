@@ -4,7 +4,6 @@
     <item>
         <shape android:shape="oval">
             <size android:height="92.0dip" android:width="92.0dip" />
-            <solid android:color="?coreColorAppBackground" />
         </shape>
     </item>
     <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
