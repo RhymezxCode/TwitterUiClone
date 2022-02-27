@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/space_tab"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#005477"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animated_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/white"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/speakwave" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_more_vert_24" />
+
+
+            <TextView
+                android:id="@+id/live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1_bold"
+                android:text="@string/live"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/animated_icon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/space_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/gothic_a1_bold"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/live"
+                tools:text="The topic of the space should be here." />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/mobilerobot"
+                app:civ_border_color="#005477"
+                app:civ_border_width="2dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/space_name" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/stephenamell"
+                app:civ_border_color="#005477"
+                app:civ_border_width="2dp"
+                app:layout_constraintStart_toEndOf="@id/profile_image_1"
+                app:layout_constraintTop_toBottomOf="@id/space_name" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/teta"
+                app:civ_border_color="#005477"
+                app:civ_border_width="2dp"
+                app:layout_constraintStart_toEndOf="@id/profile_image_2"
+                app:layout_constraintTop_toBottomOf="@id/space_name" />
+
+            <TextView
+                android:id="@+id/no_of_listeners"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/gothic_a1"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/profile_image_3"
+                app:layout_constraintTop_toBottomOf="@id/space_name"
+                tools:text="Number of Listeners" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="15dp"
+                android:background="#0000ffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profile_image_1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/teta"
+                    app:civ_border_color="#005477"
+                    app:civ_border_width="2dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/space_host_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/gothic_a1_bold"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@id/profile_image_4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Mikel Arteta" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="35dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@id/space_host_name"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/space_host_bio">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:text="@string/host"
+                        android:textSize="11sp"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/gothic_a1_bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/space_host_bio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="@font/gothic_a1"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/profile_image_4"
+                    tools:text="The Twitter bio of the space host should be here." />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</FrameLayout>
+
+

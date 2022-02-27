@@ -381,6 +381,8 @@ Good descriptions are concise, but present what’s in your photos accurately en
     <string name="app_icons_feature_title">App icons</string>
     <string name="app_install">Install</string>
     <string name="app_name">TwitterUiClone</string>
+    <string name="live">LIVE</string>
+    <string name="host">Host</string>
     <string name="app_open">Open</string>
     <string name="app_rating_1_star">Rate Twitter app 1 star.</string>
     <string name="app_rating_2_star">Rate Twitter app 2 stars.</string>
