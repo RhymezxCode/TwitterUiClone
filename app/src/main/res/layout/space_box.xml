@@ -24,13 +24,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <com.google.android.material.card.MaterialCardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/space_box"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         app:cardBackgroundColor="@color/blue_500"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,10 +60,10 @@
                 android:layout_margin="15dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
+                android:contentDescription="@string/kehab"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_more_vert_24"
-                android:contentDescription="@string/kehab" />
+                app:srcCompat="@drawable/ic_baseline_more_vert_24" />
 
 
             <TextView
@@ -74,7 +75,7 @@
                 android:text="@string/live"
                 android:textAllCaps="true"
                 android:textColor="#ffffff"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 app:layout_constraintStart_toEndOf="@id/animated_icon"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -164,7 +165,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/teta"
-                    app:civ_border_color="#005477"
+                    app:civ_border_color="@android:color/transparent"
                     app:civ_border_width="2dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -184,29 +185,27 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="Mikel Arteta" />
 
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <androidx.cardview.widget.CardView
                     android:id="@+id/host"
                     android:layout_width="35dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     android:layout_marginStart="10dp"
-                    android:background="@drawable/host_body"
-                    android:backgroundTint="@color/blue_500"
-                    app:layout_constraintBottom_toTopOf="@+id/space_host_bio"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/blue_500"
+                    app:cardCornerRadius="3dp"
+                    app:cardPreventCornerOverlap="false"
                     app:layout_constraintStart_toEndOf="@id/space_host_name"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/gothic_a1_bold"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/chirp_bold"
                         android:text="@string/host"
                         android:textColor="@color/white"
-                        android:textSize="11sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:id="@+id/space_host_bio"
@@ -227,7 +226,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
