@@ -380,7 +380,7 @@ Good descriptions are concise, but present what’s in your photos accurately en
     <string name="app_icons_feature_icon_description">Icon for the App icons feature</string>
     <string name="app_icons_feature_title">App icons</string>
     <string name="app_install">Install</string>
-    <string name="app_name">Search</string>
+    <string name="app_name">TwitterUiClone</string>
     <string name="app_open">Open</string>
     <string name="app_rating_1_star">Rate Twitter app 1 star.</string>
     <string name="app_rating_2_star">Rate Twitter app 2 stars.</string>
@@ -388,7 +388,7 @@ Good descriptions are concise, but present what’s in your photos accurately en
     <string name="app_rating_4_star">Rate Twitter app 4 stars.</string>
     <string name="app_rating_5_star">Rate Twitter app 5 stars.</string>
     <string name="app_rating_feedback_email">twitter-for-android-feedback@twitter.com</string>
-    <string name="app_rating_feedback_email_body">I give the Twitter Android app %d stars because ...</string>
+    <string name="app_rating_feedback_email_body">I give the Twitter Android app %d stars because …</string>
     <string name="app_rating_feedback_email_subject">%d stars</string>
     <string name="app_rating_prompt_continue">Continue</string>
     <string name="app_rating_prompt_leave_feedback">Leave feedback</string>
@@ -422,7 +422,7 @@ Good descriptions are concise, but present what’s in your photos accurately en
     <string name="audio_geoblocked">This audio is not available in your location.</string>
     <string name="audio_is_not_available">This audio is not available.</string>
     <string name="audio_space_connected">Your Space</string>
-    <string name="audio_space_connecting">Connecting...</string>
+    <string name="audio_space_connecting">Connecting…</string>
     <string name="audio_space_end">End</string>
     <string name="audio_space_leave">Leave</string>
     <string name="audio_space_minimize">Minimize</string>
@@ -4685,13 +4685,13 @@ Blocking will not report @%1$s to Periscope."</string>
     <string name="reply_compose_title">Direct Message to %1$s</string>
     <string name="reply_compose_title_no_username">Direct Message</string>
     <string name="reply_context_composer_tooltip_text">You can select who gets your reply</string>
-    <string name="reply_context_to_someone">Replying to ﻿%1$s﻿</string>
-    <string name="reply_context_to_someone_and_own_exclusive">Replying to ﻿%1$s﻿. Your reply will also be visible to your Super Followers.</string>
-    <string name="reply_context_to_someone_and_someone">Replying to ﻿%1$s and %2$s﻿</string>
-    <string name="reply_context_to_someone_and_someone_exclusive">Replying to ﻿%1$s and %2$s﻿. Your reply will also be visible to other Super Followers.</string>
-    <string name="reply_context_to_someone_exclusive">Replying to ﻿%1$s﻿. Your reply will also be visible to their Super Followers.</string>
-    <string name="reply_context_to_someone_someone_and_someone">Replying to ﻿%1$s %2$s and %3$s﻿</string>
-    <string name="reply_context_to_someone_someone_and_someone_exclusive">Replying to ﻿%1$s %2$s and %3$s﻿. Your reply will also be visible to other Super Followers.</string>
+    <string name="reply_context_to_someone">Replying to %1$s</string>
+    <string name="reply_context_to_someone_and_own_exclusive">Replying to %1$s. Your reply will also be visible to your Super Followers.</string>
+    <string name="reply_context_to_someone_and_someone">Replying to %1$s and %2$s</string>
+    <string name="reply_context_to_someone_and_someone_exclusive">Replying to %1$s and %2$s. Your reply will also be visible to other Super Followers.</string>
+    <string name="reply_context_to_someone_exclusive">Replying to %1$s. Your reply will also be visible to their Super Followers.</string>
+    <string name="reply_context_to_someone_someone_and_someone">Replying to %1$s %2$s and %3$s</string>
+    <string name="reply_context_to_someone_someone_and_someone_exclusive">Replying to %1$s %2$s and %3$s. Your reply will also be visible to other Super Followers.</string>
     <string name="reply_context_tweet_tooltip_text">Here are the people in this conversation</string>
     <string name="reply_downvoted">downvoted</string>
     <string name="reply_privately">Send a message</string>
