@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fleetline_item_background_single_round" />
+    <item android:drawable="@drawable/fleetline_item_loader_round" />
+</transition>

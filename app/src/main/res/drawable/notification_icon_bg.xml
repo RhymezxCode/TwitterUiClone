@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:visible="true" android:insetLeft="@dimen/notification_circle_inset" android:insetRight="@dimen/notification_circle_inset" android:insetTop="@dimen/notification_circle_inset" android:insetBottom="@dimen/notification_circle_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <solid android:color="@color/twitter_blue" />
+    </shape>
+</inset>

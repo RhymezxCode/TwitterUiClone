@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_00" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_01" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_02" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_03" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_04" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_05" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_06" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_07" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_08" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_09" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_10" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_11" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_12" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_13" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_14" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_15" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_16" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_17" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_18" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_19" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_20" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_21" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_22" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_23" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_24" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_25" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_26" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_27" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_28" />
+    <item android:duration="33" android:drawable="@drawable/sparkle_fill_29" />
+</animation-list>

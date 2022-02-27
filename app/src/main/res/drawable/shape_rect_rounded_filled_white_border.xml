@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ps__white_30" />
+    <stroke android:width="@dimen/ps__call_selection_button_border_width" android:color="@color/ps__white" />
+    <corners android:radius="@dimen/ps__call_selection_button_corner_radius" />
+</shape>

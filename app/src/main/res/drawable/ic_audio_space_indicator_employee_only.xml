@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="16.0dip" android:width="16.0dip" android:drawable="@drawable/ic_audio_space_indicator_bg" android:viewportWidth="20.0" android:viewportHeight="20.0" />
+    <item android:gravity="center" android:height="6.0dip" android:width="7.799988dip" android:drawable="@drawable/ic_twitter_logo" android:viewportWidth="20.0" android:viewportHeight="20.0" />
+</layer-list>

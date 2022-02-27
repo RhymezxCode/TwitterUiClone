@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_vector_checkmark_circle_fill_green_tint" />
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/space_24" android:width="@dimen/space_24" />
+            <stroke android:width="@dimen/space_2" android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

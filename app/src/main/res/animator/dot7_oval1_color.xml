@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="170" android:startOffset="0" android:valueFrom="#00000000" android:valueTo="#00000000" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="340" android:startOffset="170" android:valueFrom="#ff8ce7c3" android:valueTo="#fff48ea7" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="170" android:startOffset="510" android:valueFrom="#fff48ea7" android:valueTo="#ffa342e5" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="170" android:startOffset="680" android:valueFrom="#ffa342e5" android:valueTo="#ff2bcd87" android:valueType="colorType" android:propertyName="fillColor" />
+</set>

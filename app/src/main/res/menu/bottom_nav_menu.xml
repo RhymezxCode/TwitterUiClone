@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/search"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigation_space"
+        android:icon="@drawable/space"
+        android:title="Space" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_communities"-->
+<!--        android:icon="@drawable/communities"-->
+<!--        android:title="Communities" />-->
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/message"
+        android:title="Message" />
+
+</menu>

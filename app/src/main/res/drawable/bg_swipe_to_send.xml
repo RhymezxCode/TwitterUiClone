@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/swipe_to_send_corner_radius" />
+            <solid android:color="#3d000000" />
+        </shape>
+    </item>
+    <item android:id="@id/swipe_to_send_background_color" android:bottom="2.0dip">
+        <shape android:layout_width="@dimen/swipe_to_send_width" android:layout_height="@dimen/swipe_to_send_height" android:shape="rectangle">
+            <corners android:radius="@dimen/swipe_to_send_corner_radius" />
+            <solid android:color="@color/purple_500" />
+        </shape>
+    </item>
+</layer-list>

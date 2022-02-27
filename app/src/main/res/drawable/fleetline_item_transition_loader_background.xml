@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:top="8.0dip" android:right="3.0dip" android:bottom="24.0dip">
+                <shape android:shape="rectangle">
+                    <corners android:radius="26.0dip" />
+                    <solid android:color="@color/fleetline_item_read" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@android:color/transparent" />
+</transition>

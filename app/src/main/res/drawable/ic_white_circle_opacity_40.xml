@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white_opacity_40" />
+    <size android:height="@dimen/live_event_card_white_team_circle_opacity_size" android:width="@dimen/live_event_card_white_team_circle_opacity_size" />
+</shape>

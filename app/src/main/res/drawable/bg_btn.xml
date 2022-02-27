@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/twitter_blue_fill_pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/space_24" />
+            <solid android:color="@color/selector_button_bg" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_media_badge" />
+    <item android:left="3.5dip" android:top="3.75dip" android:right="4.5dip" android:bottom="3.75dip">
+        <bitmap android:src="@drawable/ic_audio_badge" />
+    </item>
+</layer-list>

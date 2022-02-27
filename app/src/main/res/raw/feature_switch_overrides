@@ -1,0 +1,5 @@
+{
+    "global_override_sample" : {
+      "value" : "overridden_value"
+    }
+}

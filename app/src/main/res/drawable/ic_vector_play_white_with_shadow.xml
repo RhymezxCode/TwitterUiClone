@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-1.0dip">
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/black_opacity_10" android:endColor="@color/clear" android:angle="0.0" android:type="radial" android:gradientRadius="50.0%p" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_vector_play_white" android:left="3.0dip" android:top="3.0dip" android:right="2.0dip" android:bottom="3.0dip" />
+</layer-list>

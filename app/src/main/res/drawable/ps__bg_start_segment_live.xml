@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ps__red" />
+    <corners android:topLeftRadius="@dimen/ps__broadcast_badge_border_radius" android:bottomLeftRadius="@dimen/ps__broadcast_badge_border_radius" />
+</shape>

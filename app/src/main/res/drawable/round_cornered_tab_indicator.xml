@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/space_1">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius_infinite" />
+            <solid android:color="@color/twitter_blue" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dm_fleet_overlay_color" />
+    <corners android:radius="@dimen/dm_fleet_content_corner_radius" />
+</shape>

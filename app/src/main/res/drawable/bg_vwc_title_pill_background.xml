@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/vwc_title_pill_corner_radius" android:topRightRadius="@dimen/vwc_title_pill_corner_radius" android:bottomLeftRadius="@dimen/vwc_title_pill_corner_radius" android:bottomRightRadius="@dimen/vwc_title_pill_corner_radius" />
+    <solid android:color="@color/black_opacity_50" />
+</shape>

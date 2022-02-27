@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius_medium" />
+            <solid android:color="@color/blue_200" />
+            <size android:height="85.0dip" android:width="80.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_bookmark_vector" />
+</layer-list>
