@@ -7043,6 +7043,8 @@ Swipe up to explore the best new content for you-you never know what you'll disc
     <string name="zip_subtext">Add ZIP code</string>
     <string name="zip_subtext_global">Add ZIP code / postal code</string>
     <string name="hello_blank_fragment">This is a frgament</string>
+    <string name="spaces_just_for_you">Spaces just for you</string>
+    <string name="people_you_follow_are_tuning_in_now">people you follow are tuning in now</string>
 
     <item type="string" name="APKTOOL_DUMMY_2ec" />
     <item type="string" name="APKTOOL_DUMMY_1328" />

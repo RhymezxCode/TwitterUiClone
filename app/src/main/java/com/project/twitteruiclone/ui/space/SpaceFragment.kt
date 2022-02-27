@@ -30,10 +30,10 @@ class SpaceFragment : Fragment() {
         _binding = FragmentSpaceBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSpace
-        spaceViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+//        val textView: TextView = binding.textSpace
+//        spaceViewModel.text.observe(viewLifecycleOwner, Observer {
+//            textView.text = it
+//        })
         return root
     }
 

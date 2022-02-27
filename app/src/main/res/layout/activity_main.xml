@@ -24,16 +24,15 @@
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/gray_1000"
         app:itemIconTint="@android:color/darker_gray"
         app:itemRippleColor="@android:color/white"
         app:itemTextColor="@android:color/black"
+        app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu"
-        app:labelVisibilityMode="unlabeled"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="24dp" />
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
