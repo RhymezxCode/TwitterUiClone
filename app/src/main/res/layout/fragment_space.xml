@@ -4,34 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rootLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/web_gray_50">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/gray_1000"
+        android:background="@null"
         tools:context="ui.space.SpaceFragment">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/circular_image"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/ic_app_icon_5"
+            android:src="@drawable/stephenamell"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@id/space_title_label"
+            android:id="@+id/space_title_label"
             android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:fontFamily="@font/chirp_bold"
             android:gravity="center_vertical"
-            android:text="@string/channel_spaces_title"
+            android:text="@string/spaces"
             android:textColor="@color/exo_white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,9 +42,9 @@
         <View
             android:id="@+id/view"
             android:layout_width="0dp"
-            android:layout_height="1px"
-            android:layout_marginTop="10dp"
-            android:background="@color/exo_white_opacity_70"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/dim_foreground_disabled_material_dark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/circular_image" />
@@ -73,20 +74,24 @@
             android:fontFamily="@font/chirp_medium"
             android:text="@string/people_you_follow_are_tuning_in_now"
             android:textColor="@color/croppable_image_grid_color"
-            android:textSize="12sp"
+            android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/space_for_you" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_of_space_box"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="28dp"
             android:layout_marginEnd="20dp"
+            android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/people_tuning" />
+            app:layout_constraintTop_toBottomOf="@+id/people_tuning"
+            tools:listitem="@layout/space_box" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -97,12 +102,12 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@null"
         android:clickable="true"
-        android:contentDescription="Create your Space"
+        android:contentDescription="@string/create_your_space"
         android:focusable="true"
         android:src="@drawable/ic_vector_audio_spaces_monochrome"
         app:backgroundTint="@color/blue_600"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
