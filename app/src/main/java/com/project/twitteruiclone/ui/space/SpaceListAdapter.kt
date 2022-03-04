@@ -11,6 +11,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.project.twitteruiclone.R
 import com.project.twitteruiclone.data.model.SpaceContent
+import de.hdodenhof.circleimageview.CircleImageView
 import kotlin.collections.ArrayList
 
 
@@ -42,8 +43,12 @@ class SpaceListAdapter :
         holder.spaceBox.setCardBackgroundColor(Color.parseColor(eachSpace.spaceBoxColor))
         holder.host.setCardBackgroundColor(Color.parseColor(eachSpace.hostColor))
         holder.spaceName.text = eachSpace.spaceName
+        holder.firstImage.setImageResource(eachSpace.firstImage)
+        holder.secondImage.setImageResource(eachSpace.secondImage)
+        holder.thirdImage.setImageResource(eachSpace.thirdImage)
         holder.spaceHostName.text = eachSpace.spaceHostName
         holder.spaceHostBio.text = eachSpace.spaceHostBio
+        holder.spaceHostImage.setImageResource(eachSpace.spaceHostImage)
         val totalListeners = eachSpace.noOfListeners
         holder.noOfListeners.text = " $totalListeners listening"
         val who = eachSpace.whoIsTalking
@@ -58,8 +63,12 @@ class SpaceListAdapter :
         val spaceBox: CardView = itemView.findViewById(R.id.space_box)
         val host: CardView = itemView.findViewById(R.id.host)
         val spaceName: TextView = itemView.findViewById(R.id.space_name)
+        val firstImage: CircleImageView = itemView.findViewById(R.id.profile_image_1)
+        val secondImage: CircleImageView = itemView.findViewById(R.id.profile_image_2)
+        val thirdImage: CircleImageView = itemView.findViewById(R.id.profile_image_3)
         val spaceHostName: TextView = itemView.findViewById(R.id.space_host_name)
         val spaceHostBio: TextView = itemView.findViewById(R.id.space_host_bio)
+        val spaceHostImage: CircleImageView = itemView.findViewById(R.id.profile_image_4)
         val noOfListeners: TextView = itemView.findViewById(R.id.no_of_listeners)
         val talkingInSpace: TextView = itemView.findViewById(R.id.talking_in_space)
     }
