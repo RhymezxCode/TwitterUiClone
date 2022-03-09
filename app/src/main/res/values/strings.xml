@@ -2,7 +2,7 @@
 <resources>
     <string name="app_install">Install</string>
     <string name="app_name">TwitterUiClone</string>
-    <string name="live">live</string>
+    <string name="live">LIVE</string>
     <string name="host">Host</string>
     <string name="app_open">Open</string>
     <string name="hello_blank_fragment">This is a fragment</string>
@@ -13,4 +13,7 @@
     <string name="create_your_space">Create your Space</string>
     <string name="spaces">Spaces</string>
     <string name="twitter">Twitter</string>
+    <string name="search">Search Twitter</string>
+    <string name="trends_for_you">Trends for you</string>
+    <string name="settings">Settings</string>
 </resources>
