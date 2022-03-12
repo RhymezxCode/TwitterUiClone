@@ -1,5 +1,6 @@
 package com.project.twitteruiclone.ui.search
 
+import android.app.Activity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,9 +9,17 @@ import androidx.recyclerview.widget.RecyclerView
 import com.project.twitteruiclone.R
 import com.project.twitteruiclone.data.model.NewsListContent
 
+
 class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsViewHolder>() {
 
     private var dataset: ArrayList<NewsListContent> = ArrayList()
+    private var activity: Activity? = Activity()
+
+    fun setNews(activity: Activity, Transactions: ArrayList<NewsListContent>) {
+        this.dataset = Transactions
+        this.activity = activity
+        this.notifyDataSetChanged()
+    }
 
     inner class NewsViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         val trending: TextView = itemView.findViewById(R.id.trending_textview)

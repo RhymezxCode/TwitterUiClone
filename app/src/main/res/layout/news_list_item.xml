@@ -9,8 +9,9 @@
         android:id="@+id/trending_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/chirp_bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Trending in Nigeria"
@@ -19,30 +20,32 @@
     <ImageView
         android:layout_width="20dp"
         android:layout_height="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="20dp"
+        android:contentDescription="@string/kehab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/abc_ic_menu_overflow_material"
-        android:contentDescription="@string/kehab" />
+        app:srcCompat="@drawable/ic_baseline_more_vert_24" />
 
     <TextView
         android:id="@+id/name_of_trend_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/chirp_bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/trending_textview"
-        tools:text="BRT"
-        />
+        tools:text="BRT" />
 
     <TextView
         android:id="@+id/no_of_tweets_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/chirp_light"
         app:layout_constraintTop_toBottomOf="@id/name_of_trend_textview"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="4,587 Tweets"/>
