@@ -23,7 +23,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/abc_ic_menu_overflow_material" />
+        app:srcCompat="@drawable/abc_ic_menu_overflow_material"
+        android:contentDescription="@string/kehab" />
 
     <TextView
         android:id="@+id/name_of_trend_textview"
