@@ -1,15 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ui.search.SearchFragment">
+    android:background="@color/web_gray_50"
+    android:paddingBottom="50dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/text_search"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="ui.search.SearchFragment">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/stephenamell"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <SearchView
+                android:id="@+id/twitter_search"
+                android:layout_width="220dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_white_rounded"
+                android:closeIcon="@null"
+                android:iconifiedByDefault="false"
+                android:padding="1dp"
+                android:queryHint="@string/search"
+                android:searchIcon="@null"
+                app:theme="@style/AppSearchView"
+                app:layout_constraintEnd_toStartOf="@id/settings"
+                app:layout_constraintStart_toEndOf="@id/user_image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:queryBackground="@android:color/transparent"
+                app:submitBackground="@drawable/bg_white_rounded" />
+
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_vector_settings_stroke_link"
+                android:contentDescription="@string/settings" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/main_trend_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/img11"
+                app:layout_constraintTop_toBottomOf="@id/twitter_search">
+                
+                <TextView
+                    android:id="@+id/topic_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/chirp_bold"
+                    android:text="@string/topic"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/headline_textview" />
+
+                <TextView
+                    android:id="@+id/live_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/live"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/chirp_light"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@id/topic_textview"
+                    app:layout_constraintBottom_toTopOf="@id/headline_textview"/>
+
+                <TextView
+                    android:id="@+id/headline_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/chirp_bold"
+                    android:text="@string/headline"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/trends_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chirp_bold"
+                android:text="@string/trends_for_you"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/main_trend_view" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/news_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:paddingBottom="20dp"
+                android:scrollbars="none"
+                app:layout_constraintTop_toBottomOf="@id/trends_textview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                tools:listitem="@layout/news_list_item"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="@color/blue_600"
+        app:tint="@color/white"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck"
+        android:contentDescription="@string/fab" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
