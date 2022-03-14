@@ -45,6 +45,7 @@ class SpaceFragment : Fragment() {
             spaceListAdapter.notifyDataSetChanged()
         }
 
+
         spaceListAdapter.setSpaces(
             requireActivity(),
             Spaces.getSpaces()

@@ -15,7 +15,7 @@ import kotlin.collections.ArrayList
 
 
 class SpaceListAdapter :
-    RecyclerView.Adapter<SpaceListAdapter.SpaceHolder>() {
+    RecyclerView.Adapter<SpaceListAdapter.SpaceHolder>(){
     private var allSpaces: ArrayList<SpaceContent> = ArrayList()
     private var activity: Activity? = Activity()
 
