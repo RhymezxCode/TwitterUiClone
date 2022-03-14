@@ -8,12 +8,16 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.project.twitteruiclone.data.util.News
+import com.project.twitteruiclone.data.util.Spaces
 import com.project.twitteruiclone.databinding.FragmentSearchBinding
 
 class SearchFragment : Fragment() {
 
     private lateinit var searchViewModel: SearchViewModel
     private var _binding: FragmentSearchBinding? = null
+    private lateinit var newsListAdapter:NewsListAdapter
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -28,13 +32,30 @@ class SearchFragment : Fragment() {
             ViewModelProvider(this).get(SearchViewModel::class.java)
 
         _binding = FragmentSearchBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
-        val textView: TextView = binding.textSearch
-        searchViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
-        return root
+        newsListAdapter = NewsListAdapter()
+
+        val myLinearLayoutManager = object : LinearLayoutManager(requireContext()){
+            override fun canScrollVertically(): Boolean {
+                return false
+            }
+        }
+
+        with(binding.newsList) {
+            layoutManager = myLinearLayoutManager
+            adapter = newsListAdapter
+            newsListAdapter.notifyDataSetChanged()
+        }
+
+        newsListAdapter.setNews(
+            requireActivity(),
+            News.getNews()
+        )
+
+
+
+
+        return binding.root
     }
 
     override fun onDestroyView() {
