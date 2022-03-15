@@ -27,9 +27,9 @@
                     android:id="@+id/list_of_post"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
                     android:paddingBottom="20dp"
                     android:scrollbars="none"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/twitter_logo"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                    app:layout_constraintEnd_toStartOf="@+id/discovery"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/circular_image"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -99,7 +99,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/circular_image" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/discovery"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"

@@ -39,28 +39,7 @@ class HomeListAdapter :
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: PostHolder, position: Int) {
         val eachPost = allPosts[position]
-        when {
-            eachPost.status == "liked" -> {
-                holder.contributorIcon.setImageResource(R.drawable.ic_stat_heart)
-            }
-            eachPost.status == "retweeted" -> {
-                holder.contributorIcon.setImageResource(R.drawable.ic_stat_retweet)
-            }
-            eachPost.status == "replied" -> {
-                holder.contributorIcon.setImageResource(R.drawable.ic_stat_notify_reply)
-            }
-            eachPost.hasThread -> {
-                holder.threadLine.visibility = View.VISIBLE
-                holder.showThread.visibility = View.VISIBLE
-                holder.threadUserPhoto.visibility = View.VISIBLE
-                holder.postImageCard.visibility = View.GONE
-            }
-            !eachPost.hasThread -> {
-                holder.threadLine.visibility = View.GONE
-                holder.showThread.visibility = View.GONE
-                holder.threadUserPhoto.visibility = View.GONE
-            }
-        }
+
         holder.contributorInfo.text = eachPost.contributorInfo
         holder.fullName.text = eachPost.fullName
         holder.username.text = eachPost.username
@@ -70,6 +49,33 @@ class HomeListAdapter :
         holder.noOfRetweet.text = eachPost.noOfRetweet
         holder.noOfLike.text = eachPost.noOfLike
         holder.contributorInfo.text = eachPost.contributorInfo
+
+        when (eachPost.status) {
+            "liked" -> {
+                holder.contributorIcon.setImageResource(R.drawable.ic_stat_heart)
+            }
+            "retweeted" -> {
+                holder.contributorIcon.setImageResource(R.drawable.ic_stat_retweet)
+            }
+            "replied" -> {
+                holder.contributorIcon.setImageResource(R.drawable.ic_stat_notify_reply)
+            }
+        }
+
+        when{
+            eachPost.hasThread -> {
+                holder.threadLine.visibility = View.VISIBLE
+                holder.showThread.visibility = View.VISIBLE
+                holder.threadUserPhoto.visibility = View.VISIBLE
+                holder.postImageCard.visibility = View.GONE
+            }
+            !eachPost.hasThread -> {
+                holder.threadLine.visibility = View.GONE
+                holder.showThread.visibility = View.GONE
+                holder.postImageCard.visibility = View.VISIBLE
+                holder.threadUserPhoto.visibility = View.GONE
+            }
+        }
 
 
     }

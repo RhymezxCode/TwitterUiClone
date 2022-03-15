@@ -77,6 +77,21 @@ object Posts {
                 false
             )
         )
+        posts.add(
+            PostContent(
+                "Ndiritu Retweeted",
+                "retweeted",
+                "Philips future",
+                "@philipsfuture",
+                "10h",
+                "I don't like how the stock android Phone app looks like so i made a few UI changes to it. So" +
+                        "I want the long line to show so that the thread is complete on a straight line.",
+                "4",
+                "3",
+                "33",
+                true
+            )
+        )
 
     }
 

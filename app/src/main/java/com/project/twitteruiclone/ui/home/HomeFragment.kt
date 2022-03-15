@@ -4,15 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.project.twitteruiclone.R
 import com.project.twitteruiclone.data.util.Posts
-import com.project.twitteruiclone.data.util.Spaces
 import com.project.twitteruiclone.databinding.FragmentHomeBinding
-import com.project.twitteruiclone.ui.space.SpaceListAdapter
 
 class HomeFragment : Fragment() {
 
@@ -39,19 +38,27 @@ class HomeFragment : Fragment() {
         homeListAdapter = HomeListAdapter()
         spaceOnTopListAdapter = SpaceOnTopListAdapter()
 
-        val myLinearLayoutManager = object : LinearLayoutManager(requireContext()){
+        val myPostLinearLayoutManager = object : LinearLayoutManager(requireContext()){
             override fun canScrollVertically(): Boolean {
                 return false
             }
         }
 
+        val mySpaceLinearLayoutManager = LinearLayoutManager(requireContext())
+        mySpaceLinearLayoutManager.orientation = LinearLayoutManager.HORIZONTAL
+
+        val divider = DividerItemDecoration(requireContext(), DividerItemDecoration.VERTICAL)
+        ContextCompat.getDrawable(requireContext(), R.drawable.line)
+            ?.let { divider.setDrawable(it) }
+        binding.listOfPost.addItemDecoration(divider)
+
         with(binding.listOfPost) {
-            layoutManager = myLinearLayoutManager
+            layoutManager = myPostLinearLayoutManager
             adapter = homeListAdapter
             homeListAdapter.notifyDataSetChanged()
         }
         with(binding.listOfSpacesOnTop) {
-            layoutManager = LinearLayoutManager(requireContext())
+            layoutManager = mySpaceLinearLayoutManager
             adapter = spaceOnTopListAdapter
             spaceOnTopListAdapter.notifyDataSetChanged()
         }
