@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/web_gray_50"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/show_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:fontFamily="@font/chirp_regular"
+        android:text="Show this thread"
+        android:textColor="@color/badge_verified"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_image_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_2"
+        app:layout_constraintTop_toTopOf="@+id/profile_image_2" />
+
+    <TextView
+        android:id="@+id/contributor_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/chirp_bold"
+        android:singleLine="true"
+        android:text="Olisemeka replied"
+        android:textColor="@color/exo_white_opacity_70"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/teta"
+        app:civ_border_color="@android:color/transparent"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/full_name" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/teta"
+        app:civ_border_color="@android:color/transparent"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/comment" />
+
+    <View
+        android:id="@+id/thread_line"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/inline_action_gallery_disabled"
+        app:layout_constraintBottom_toTopOf="@+id/profile_image_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image_1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/chirp_bold"
+        android:singleLine="true"
+        android:text="Olisemeka"
+        android:textColor="@color/exo_white"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_1"
+        app:layout_constraintTop_toBottomOf="@+id/contributor_info" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:singleLine="true"
+        android:text=" "
+        android:textColor="@color/exo_white_opacity_70"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/dot"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/full_name"
+        app:layout_constraintTop_toBottomOf="@+id/contributor_info" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:text="5h"
+        android:textColor="@color/exo_white_opacity_70"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dot"
+        app:layout_constraintTop_toBottomOf="@+id/contributor_info" />
+
+    <View
+        android:id="@+id/dot"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/exo_white_opacity_70"
+        app:layout_constraintEnd_toStartOf="@+id/hours"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/contributor_info" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="@+id/hours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hours"
+        app:layout_constraintTop_toBottomOf="@+id/contributor_info"
+        app:srcCompat="@drawable/abc_ic_menu_overflow_material"
+        app:tint="@color/exo_white_opacity_70" />
+
+    <TextView
+        android:id="@+id/full_post"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:text="This is going to be a short post, just to say that creating a twitter UI is actually fun."
+        android:textColor="@color/exo_white"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_1"
+        app:layout_constraintTop_toBottomOf="@+id/full_name" />
+
+    <ImageView
+        android:id="@+id/contributor_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/profile_image_1"
+        app:layout_constraintEnd_toStartOf="@+id/contributor_info"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_stat_notify_reply" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/post_image_card"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_1"
+        app:layout_constraintTop_toBottomOf="@+id/full_post">
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/teta" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/full_post"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_card"
+        app:srcCompat="@drawable/ic_stat_notify_reply" />
+
+    <TextView
+        android:id="@+id/number_of_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:singleLine="true"
+        android:text="39"
+        android:textColor="@color/exo_white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/comment"
+        app:layout_constraintStart_toEndOf="@+id/comment"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_card" />
+
+    <ImageView
+        android:id="@+id/retweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/number_of_comment"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_card"
+        app:srcCompat="@drawable/ic_stat_retweet" />
+
+    <TextView
+        android:id="@+id/number_of_retweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:singleLine="true"
+        android:text="39"
+        android:textColor="@color/exo_white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/retweet"
+        app:layout_constraintStart_toEndOf="@+id/retweet"
+        app:layout_constraintTop_toTopOf="@+id/retweet" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/number_of_retweet"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_card"
+        app:srcCompat="@drawable/ic_stat_heart" />
+
+    <TextView
+        android:id="@+id/number_of_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/chirp_regular"
+        android:singleLine="true"
+        android:text="39"
+        android:textColor="@color/exo_white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/like"
+        app:layout_constraintStart_toEndOf="@+id/like"
+        app:layout_constraintTop_toTopOf="@+id/like" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/number_of_like"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_card"
+        app:srcCompat="@drawable/abc_ic_menu_share_mtrl_alpha"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

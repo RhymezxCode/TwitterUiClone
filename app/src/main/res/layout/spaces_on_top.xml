@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/space_on_top"
+    android:layout_width="300dp"
+    android:layout_height="80dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/design_dark_default_color_primary"
+    app:cardCornerRadius="100dp"
+    app:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/teta"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_overlay="true"
+            app:civ_border_width="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/profile_image_2"
+            app:layout_constraintStart_toStartOf="@+id/profile_image_2"
+            app:layout_constraintTop_toTopOf="@+id/profile_image_2"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/stephenamell"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_overlay="true"
+            app:civ_border_width="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/profile_image_1"
+            app:layout_constraintStart_toStartOf="@+id/profile_image_1"
+            app:layout_constraintTop_toTopOf="@+id/profile_image_1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:src="@drawable/mobilerobot"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_overlay="true"
+            app:civ_border_width="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/total_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/chirp_bold"
+            android:text="+227"
+            android:textColor="@color/exo_white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/profile_image_3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
