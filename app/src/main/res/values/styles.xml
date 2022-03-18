@@ -3,4 +3,8 @@
     <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
         <item name="android:textSize">15sp</item>
     </style>
+
+    <style name="MessageSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">14sp</item>
+    </style>
 </resources>
