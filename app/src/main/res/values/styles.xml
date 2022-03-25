@@ -7,4 +7,9 @@
     <style name="MessageSearchView" parent="Widget.AppCompat.SearchView">
         <item name="android:textSize">14sp</item>
     </style>
+
+    <style name="AppTabView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/chirp_bold</item>
+    </style>
 </resources>

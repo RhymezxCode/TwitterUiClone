@@ -57,6 +57,56 @@ object Messages{
 
             )
         )
+
+        messages.add(
+            MessageListContent(
+                R.drawable.img17,
+                "Ronald Koeman",
+                "RonaldKoeman",
+                "1d",
+                "I used to play for Barcelona"
+            )
+        )
+
+        messages.add(
+            MessageListContent(
+                R.drawable.img5,
+                "Ebenezer Don",
+                "da_code_don",
+                "2d",
+                "Patience is the fastest route. You have plenty of time"
+            )
+        )
+
+        messages.add(
+            MessageListContent(
+                R.drawable.img6,
+                "Naruto",
+                "thelastuzumaki",
+                "3d",
+                "Dattebayo"
+            )
+        )
+
+        messages.add(
+            MessageListContent(
+                R.drawable.img8,
+                "Kylian Mbappe",
+                "adesanmi_mbappe",
+                "15 Mar",
+                "I play with Messi but Ronaldo is the GOAT"
+            )
+        )
+
+        messages.add(
+            MessageListContent(
+                R.drawable.img9,
+                "Nagato Uzumaki",
+                "chinratensei",
+                "01 Mar",
+                "Pein Rikudo Rokunin Kenzan!"
+            )
+        )
     }
 
     fun getMessages(): ArrayList<MessageListContent>{

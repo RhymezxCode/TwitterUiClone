@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context="ui.message.MessageFragment"
 android:background="@color/web_gray_50"
-android:paddingBottom="50dp">
+android:paddingBottom="20dp">
 
 <androidx.core.widget.NestedScrollView
     android:layout_width="match_parent"
@@ -89,7 +89,7 @@ android:paddingBottom="50dp">
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="50dp"
         android:clickable="true"
         android:contentDescription="@string/fab"
         android:focusable="true"

@@ -22,23 +22,23 @@
         android:layout_marginStart="60dp"
         android:fontFamily="@font/chirp_bold"
         android:textColor="@color/exo_white"
-        android:textSize="16sp"
+        android:textSize="15sp"
         app:layout_constraintTop_toTopOf="@id/user_profile_picture"
         app:layout_constraintStart_toStartOf="@id/user_profile_picture"
         tools:text="Madona Syombua"/>
 
     <TextView
         android:id="@+id/user_handle"
-        android:layout_width="150dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="5dp"
         android:ellipsize="end"
         android:singleLine="true"
         android:fontFamily="@font/chirp_light"
         android:textColor="@color/exo_white"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/user_full_name"
-        app:layout_constraintTop_toTopOf="@id/user_full_name"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/user_full_name"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="madona_syombua" />
 
     <TextView
@@ -48,20 +48,23 @@
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/chirp_light"
         android:textColor="@color/exo_white"
-        android:textSize="16sp"
-        app:layout_constraintTop_toTopOf="@id/user_handle"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:text="1h"/>
 
     <TextView
         android:id="@+id/message_content"
-        android:layout_width="300dp"
+        android:layout_width="252dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/chirp_light"
         android:textColor="@color/exo_white"
-        android:textSize="16sp"
+        android:textSize="15sp"
+        android:minLines="1"
+        android:maxLines="2"
+        android:ellipsize="end"
         app:layout_constraintStart_toEndOf="@id/user_profile_picture"
         app:layout_constraintTop_toBottomOf="@id/user_full_name"
         tools:text="Thanks so much for the awesome spaces you host each and every Friday" />
