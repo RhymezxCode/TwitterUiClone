@@ -7,7 +7,7 @@ A blog will be created soon to explain the functionalities of this app.
 
 # Contributing to this project
 
-1. If you want to contribute to this project, just fork this project and go to the issues to pick one.
+1. If you want to contribute to this project, just fork this project and go to the issues on the original repo to pick one.
 2. Then create a PR when you are done for final review.
 
 Note: Please don't forget to read the issues carefully before creating a PR, the branch to create a PR for, is mentioned on the issue.
