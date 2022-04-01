@@ -90,4 +90,17 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="@color/blue_600"
+        app:tint="@color/white"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck"
+        android:contentDescription="@string/fab" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
