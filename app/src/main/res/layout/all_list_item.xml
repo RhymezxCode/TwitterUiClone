@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/action_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
         android:importantForAccessibility="no"
@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:textColor="@color/exo_white"
+        android:textSize="15sp"
         android:fontFamily="@font/chirp_light"
         app:layout_constraintStart_toStartOf="@id/user_profile_picture"
         app:layout_constraintTop_toBottomOf="@id/user_profile_picture"
@@ -57,6 +58,7 @@
         android:lineSpacingExtra="3dp"
         android:textColor="@color/consumer_poll_card_bar"
         android:fontFamily="@font/chirp_light"
+        android:textSize="15sp"
         app:layout_constraintTop_toBottomOf="@id/action_text"
         app:layout_constraintStart_toStartOf="@id/action_text"
         tools:text="Ana de Armas, Hailee Steinfeld and Sydney Sweeney are all top-tier"/>

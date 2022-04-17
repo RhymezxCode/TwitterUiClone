@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.project.twitteruiclone.R
 import com.project.twitteruiclone.data.util.Mentions
-import com.project.twitteruiclone.data.util.Messages
 import com.project.twitteruiclone.databinding.FragmentMentionsBinding
 
 

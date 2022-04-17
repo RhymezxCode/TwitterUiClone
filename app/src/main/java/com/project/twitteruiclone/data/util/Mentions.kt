@@ -9,7 +9,7 @@ object Mentions {
     private var mentions = ArrayList<MentionsListContent>()
 
     init {
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img20,
                 "Phillip Bardsley",
@@ -20,7 +20,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img13,
                 "Kevin De Bruyne",
@@ -31,7 +31,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img10,
                 "Tunde Omotoye",
@@ -42,7 +42,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img2,
                 "Ramy Bansebaini",
@@ -53,7 +53,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img12,
                 "That Tech Dude",
@@ -65,7 +65,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img17,
                 "Ronald Koeman",
@@ -76,7 +76,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img5,
                 "Ebenezer Don",
@@ -87,7 +87,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img6,
                 "Naruto",
@@ -98,7 +98,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img8,
                 "Kylian Mbappe",
@@ -109,7 +109,7 @@ object Mentions {
             )
         )
 
-        Mentions.mentions.add(
+        mentions.add(
             MentionsListContent(
                 R.drawable.img9,
                 "Nagato Uzumaki",
