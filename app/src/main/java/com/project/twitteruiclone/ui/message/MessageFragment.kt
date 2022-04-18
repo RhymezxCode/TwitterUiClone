@@ -8,12 +8,16 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.project.twitteruiclone.data.util.Messages
+import com.project.twitteruiclone.data.util.News
 import com.project.twitteruiclone.databinding.FragmentMessageBinding
 
 class MessageFragment : Fragment() {
 
     private lateinit var messageViewModel: MessageViewModel
     private var _binding: FragmentMessageBinding? = null
+    private lateinit var messageListAdapter: MessageListAdapter
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -28,13 +32,27 @@ class MessageFragment : Fragment() {
             ViewModelProvider(this).get(MessageViewModel::class.java)
 
         _binding = FragmentMessageBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
-        val textView: TextView = binding.textMessage
-        messageViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
-        return root
+        messageListAdapter = MessageListAdapter()
+
+        val myLinearLayoutManager = object : LinearLayoutManager(requireContext()){
+            override fun canScrollVertically(): Boolean {
+                return false
+            }
+        }
+
+        with(binding.messageList) {
+            layoutManager = myLinearLayoutManager
+            adapter = messageListAdapter
+            messageListAdapter.notifyDataSetChanged()
+        }
+
+        messageListAdapter.setMessage(
+            requireActivity(),
+            Messages.getMessages()
+        )
+
+        return binding.root
     }
 
     override fun onDestroyView() {
