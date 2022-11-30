@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="17dp">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/inline_action_gallery_disabled"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/action_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/user_profile_picture"
+        app:layout_constraintBottom_toBottomOf="@id/user_profile_picture"
+        tools:srcCompat="@drawable/ic_heart_red" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_picture"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@id/action_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/action_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/exo_white"
+        android:textSize="15sp"
+        android:fontFamily="@font/chirp_light"
+        app:layout_constraintStart_toStartOf="@id/user_profile_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_profile_picture"
+        tools:text="Emmanuel Daniels liked your Tweet"/>
+
+    <TextView
+        android:id="@+id/action_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:textColor="@color/consumer_poll_card_bar"
+        android:fontFamily="@font/chirp_light"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/action_text"
+        app:layout_constraintStart_toStartOf="@id/action_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Ana de Armas, Hailee Steinfeld and Sydney Sweeney are all top-tier"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
